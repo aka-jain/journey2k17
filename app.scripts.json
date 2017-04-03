@@ -1,21 +1,21 @@
 {
-  "chunks": {
-    "vendor": [
-      "jquery",
-      "angular",
-      "angular-ui-router",
-      "materialize",
-      "parallax",
-      "wow"
+    "chunks": {
+        "vendor": [
+            "jquery",
+            "angular",
+            "angular-ui-router",
+            "materialize",
+            "parallax",
+            "wow"
 
-    ]
-  },
-  "paths": {
-       "jquery": "bower_components/jquery/dist/jquery.min.js",
-       "angular" : "bower_components/angular/angular.min.js",
-       "angular-ui-router" : "bower_components/angular-ui-router/release/angular-ui-router.min.js",
-       "materialize": "bower_components/materialize/dist/js/materialize.min.js",
-       "parallax": "bower_components/ng-simple-parallax/src/ngParallax.min.js",
-       "wow" : "bower_components/wow/dist/wow.min.js"
-     }
+        ]
+    },
+    "paths": {
+        "jquery": "bower_components/jquery/dist/jquery.min.js",
+        "angular": "bower_components/angular/angular.min.js",
+        "angular-ui-router": "bower_components/angular-ui-router/release/angular-ui-router.min.js",
+        "materialize": "bower_components/materialize/dist/js/materialize.min.js",
+        "parallax": "bower_components/ng-simple-parallax/src/ngParallax.min.js",
+        "wow": "bower_components/wow/dist/wow.min.js"
+    }
 }

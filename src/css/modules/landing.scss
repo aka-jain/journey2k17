@@ -77,8 +77,8 @@ header {
 
 .fix-header {
     position: fixed;
-     z-index: 1000;
-    background-color: rgba(34, 39, 57,0.9);
+    z-index: 1000;
+    background-color: rgba(34, 39, 57, 0.9);
     transition: all 0.2s ease-in-out;
     .kay-container {
         padding: 10px 250px;
@@ -577,7 +577,6 @@ footer {
 
 @media (max-width: 996px) {
     .fix-header {
-        
         .kay-container {
             padding: 10px 122px;
         }
@@ -666,7 +665,6 @@ footer {
     .float-quest-2 {
         padding-right: 20px;
     }
-
     .team-container {
         .team-card-container {
             padding: 0px 20px;

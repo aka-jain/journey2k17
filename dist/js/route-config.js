@@ -25,11 +25,11 @@
             title: "Journey 2k17"
         }
 
-        
+
 
         // calling all states
         $stateProvider.state(home);
-        
+
         $urlRouterProvider.otherwise("/");
 
     }
@@ -44,7 +44,7 @@
         .run(runFunc);
 
     function runFunc($rootScope, $state, utilities, $window) {
-        
+
         $rootScope.$on('$stateChangeSuccess', function(event, toState, toParams, fromState, fromParams) {
             // Save the route title
             $rootScope.pageTitle = $state.current.title;

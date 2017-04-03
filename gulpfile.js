@@ -218,6 +218,6 @@ gulp.task('connect', function() {
 })
 
 // development task
-gulp.task('dev', ['clean'], function() {
-    gulp.start('css', 'js', 'html', 'images', 'vendorjs', 'vendorcss', 'fonts');
+gulp.task('runserver', ['clean'], function() {
+    gulp.start('css', 'js', 'html', 'images', 'vendorjs', 'vendorcss', 'fonts', 'watch', 'connect');
 });

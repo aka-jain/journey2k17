@@ -6,11 +6,11 @@
     angular
         .module('app')
         .service('utilities', utilities);
-        
+
     utilities.$inject = [];
 
     function utilities() {
-
+        // service body
     }
 
 })();
