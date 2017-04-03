@@ -9,7 +9,6 @@
     display: none !important;
 }
 
-
 /*default styles*/
 
 .right {
@@ -203,11 +202,30 @@ input.kay-input {
     transform: rotate(90deg);
 }
 
+.hide-on-mobile {
+    display: block;
+}
+.show-on-mobile {
+    display: none;
+}
+
 
 /*media queries*/
 
 @media (max-width: 1366px) {
     .kay-container {
         padding: 40px 180px;
+    }
+}
+
+@media (max-width: 996px) {
+    .kay-container {
+        padding: 40px 180px;
+    }
+    .hide-on-mobile {
+        display: none;
+    }
+    .show-on-mobile {
+        display: block;
     }
 }

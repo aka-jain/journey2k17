@@ -5,7 +5,8 @@
       "angular",
       "angular-ui-router",
       "materialize",
-      "parallax"
+      "parallax",
+      "wow"
 
     ]
   },
@@ -14,6 +15,7 @@
        "angular" : "bower_components/angular/angular.min.js",
        "angular-ui-router" : "bower_components/angular-ui-router/release/angular-ui-router.min.js",
        "materialize": "bower_components/materialize/dist/js/materialize.min.js",
-       "parallax": "bower_components/ng-simple-parallax/src/ngParallax.min.js"
+       "parallax": "bower_components/ng-simple-parallax/src/ngParallax.min.js",
+       "wow" : "bower_components/wow/dist/wow.min.js"
      }
 }

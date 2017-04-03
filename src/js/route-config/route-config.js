@@ -22,7 +22,7 @@
             templateUrl: baseUrl + "/web/landing.html",
             controller: 'MainCtrl',
             controllerAs: 'main',
-            title: "Welcome"
+            title: "Journey 2k17"
         }
 
         
