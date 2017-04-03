@@ -784,11 +784,7 @@ footer .footer-bg-2 img {
 }
 @media (max-width: 996px) {
   .fix-header .kay-container {
-    padding: 10px 122px;
-  }
-
-  .kay-container {
-    padding: 40px 122px;
+    padding: 10px 40px;
   }
 
   .intro-container h1.headline {
