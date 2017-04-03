@@ -24,7 +24,7 @@ Angular 1.5 setup with bower, SASS, gulp, npm
 1. Font Awesome
 3. WOW.js
 
-##How to start (be ready with node installed on your machine)
+##How to start (be ready with node and ruby (sass) installed on your machine)
 ```
   npm install
   bower install
