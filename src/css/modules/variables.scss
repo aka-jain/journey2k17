@@ -1,0 +1,28 @@
+/*font variable*/
+
+$rob-light: 200;
+$rob-med: 300;
+$rob-reg: 400;
+$rob-bold: 600;
+
+/*color variables*/
+$primary: #fc85ae;
+$secondary: #303952;
+$gray: #999999;
+$blue: #564a91;
+
+/*mixins*/
+
+@mixin gradient($direction, $code1, $code2){
+    /*background: $code1;*/
+    /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient($direction, $code1, $code2);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient($direction, $code1, $code2);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient($direction, $code1, $code2);
+    /* For Firefox 3.6 to 15 */
+    background: -moz-linear-gradient($direction, $code1, $code2);
+    /* For others */
+    background: linear-gradient($direction, $code1, $code2);
+}

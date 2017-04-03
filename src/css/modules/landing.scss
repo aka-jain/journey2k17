@@ -1,0 +1,499 @@
+.bg-placeholder {
+    width: 100%;
+    height: calc(100vh + 120px);
+    position: absolute;
+    background-image: url('../../dist/images/img25.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    img {
+        width: 100%;
+        margin-top: -100px;
+    }
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    color: #fff;
+    width: 100%;
+    padding: 10px 0px 0px 0px;
+    img.logo {
+        width: 35px;
+        vertical-align: middle;
+    }
+    .menu i {
+        font-size: 25px;
+        color: $primary;
+    }
+}
+
+
+/*intro container*/
+
+.intro-container {
+    position: relative;
+    width: 100%;
+    padding-top: 25vh;
+    h5.date {
+        margin-bottom: 0px;
+    }
+    h1.headline {
+        font-size: 110px;
+        color: #fff;
+        margin-top: 5px;
+    }
+    #register {
+        margin-top: 30px;
+    }
+}
+
+
+/*detail container*/
+
+.detail-container {
+    position: relative;
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 1);
+    min-height: 200px;
+    width: 40%;
+    float: left;
+    .kay-container {
+        padding-right: 30px;
+    }
+    .detail-head {
+        margin: 100px 0px 80px 0px;
+        font-size: 47px;
+        line-height: 58px;
+        font-weight: 800;
+        color: $secondary;
+    }
+}
+
+.detail-steps {
+    float: left;
+    display: inline-block;
+    position: relative;
+    width: 40%;
+    margin-top: 70px;
+    left: calc(10% - 20px);
+    background-color: $blue;
+    .kay-container {
+        padding: 100px;
+    }
+}
+
+.note-no {
+    display: inline-block;
+    float: left;
+    width: 90px;
+    h5 {
+        font-size: 35px;
+        margin-top: 3px;
+    }
+}
+
+.note-head {
+    display: inline-block;
+    width: calc(100% - 90px);
+    float: left;
+    margin-bottom: 20px;
+}
+
+.details-line {
+    position: absolute;
+    bottom: -50px;
+    left: 20px;
+}
+
+.play-container {
+    position: relative;
+    padding: 100px 40px;
+    text-align: center;
+    .play-bg {
+        position: absolute;
+        left: 0;
+        top: -80px;
+        z-index: -1;
+        img {
+            width: 370px;
+        }
+    }
+    .play-bound {
+        position: relative;
+        cursor: pointer;
+        display: inline-block;
+        width: 130px;
+        height: 130px;
+        border: 11px solid $blue;
+        border-radius: 50%;
+        text-align: center;
+        padding-top: 35px;
+        transition: all 0.2s ease-in-out;
+        .watch,
+        .video {
+            position: absolute;
+            left: -95px;
+            padding-top: 12px;
+            font-size: 18px
+        }
+        .video {
+            left: 142px;
+        }
+        i {
+            font-size: 44px;
+            color: $blue;
+            margin-left: 8px;
+        }
+    }
+}
+
+.reason-container {
+    position: relative;
+    padding-bottom: 120px;
+    @include gradient(to bottom,
+    #f9f9f9,
+    #fff);
+    margin: 10px 40px;
+}
+
+.side-detail {
+    position: absolute;
+    left: 0px;
+    top: 40%;
+    display: inline;
+}
+
+.side-line {
+    position: absolute;
+    left: 75px;
+    top: calc(40% - 70px);
+}
+
+.reason-side-detail {
+    position: absolute;
+    right: -18px;
+    top: 17px;
+}
+
+.reason-side-line {
+    position: absolute;
+    right: 18px;
+    top: -59px;
+}
+
+.quest-left-container {
+    padding-left: 200px;
+    .quest-head {
+        font-size: 46px;
+        margin: 40px 40px 40px 0px;
+    }
+}
+
+.quest-image-1 {
+    margin-top: 120px;
+    width: 100%;
+    img {
+        width: 100%;
+    }
+}
+
+.quest-image-2 {
+    position: relative;
+    margin-top: 270px;
+    width: 100%;
+    img {
+        width: 100%;
+    }
+}
+
+.float-quest {
+    padding: 160px;
+    position: absolute;
+    top: -250px;
+}
+
+.float-quest-2 {
+    position: relative;
+    padding-right: 160px;
+}
+
+.float-img {
+    position: absolute;
+    width: 400px;
+    /* overflow: hidden; */
+    top: -247px;
+    right: -190px;
+    z-index: 2;
+    img {
+        width: 100%;
+    }
+}
+
+.quest-right-container {
+    padding: 40px 160px;
+}
+
+.team-container {
+    background-color: $secondary;
+    position: relative;
+    height: auto;
+    .team-bg {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 600px;
+        z-index: 0;
+        img {
+            height: 100%;
+            /*height: 600px;*/
+        }
+    }
+    .team-bg-2 {
+        img {
+            right: 0;
+            position: absolute;
+        }
+    }
+    .team-line {
+        position: absolute;
+        top: -100px;
+        text-align: center;
+        width: 100%;
+    }
+    .team-line-2 {
+        position: absolute;
+        bottom: -100px;
+        text-align: center;
+        width: 100%;
+    }
+    .team-head {
+        margin-top: 40px;
+        font-size: 30px;
+    }
+    .team-card-container {
+        padding: 0px 160px 0px 160px;
+    }
+    .team-card {
+        position: relative;
+        width: 100%;
+        height: auto;
+        img {
+            width: 100%;
+        }
+    }
+    .team-wrap {
+        position: relative;
+        z-index: 1;
+        padding-bottom: 200px;
+    }
+    .name {
+        position: absolute;
+        top: 40%;
+        left: 100px;
+    }
+    .designation {
+        position: absolute;
+        top: calc(40% + 40px);
+        left: 100px;
+    }
+    .team-card-1 {
+        margin-top: -80px;
+    }
+    .team-card-2 {
+        margin-top: 100px;
+    }
+    .team-bg-3 {
+        position: absolute;
+        right: 0;
+        top: -100px;
+        img {
+            width: 180px;
+        }
+    }
+    .crew-button {
+        text-align: center;
+    }
+}
+
+.sch-container {
+    position: relative;
+    .kay-container {
+        margin: 30px;
+        padding: 250px;
+        padding-top: 140px;
+        background: #f9f9f9;
+        padding-bottom: 140px;
+    }
+    .sch-head {
+        font-size: 47px;
+        padding-bottom: 40px;
+    }
+    .sch-detail {
+        padding: 60px;
+        padding-bottom: 0px;
+    }
+    .sch-detail-cont {
+        margin-top: 50px;
+    }
+    .sch-line {
+        position: absolute;
+        bottom: -80px;
+        width: 100%;
+        z-index: 1;
+        text-align: center;
+    }
+    .sponsor {
+        max-width: 200px;
+        text-align: center;
+        margin: auto;
+        margin-top: 40px;
+        margin-bottom: 30px;
+        img {
+            width: 100%;
+        }
+    }
+    .faq-extra {
+        margin-bottom: 40px;
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    .faq-line {
+        position: absolute;
+        bottom: -120px;
+        width: 100%;
+        z-index: 1;
+        text-align: center;
+    }
+}
+
+.faq-container {
+    position: relative;
+    .faq-detail {
+        display: inline-block;
+        width: 55%;
+        position: relative;
+        float: right;
+        background-color: $blue;
+        padding: 80px 150px 80px 200px;
+    }
+    .faq-head {
+        color: #fff;
+        font-size: 47px;
+        margin-bottom: 60px;
+    }
+    .faq-desc {
+        margin-bottom: 40px;
+    }
+    .faq-bg {
+        position: absolute;
+        top: 60px;
+        left: 0px;
+        overflow: hidden;
+        width: 50%;
+        img {
+            width: 120%;
+        }
+    }
+    .faq-bg-2 {
+        position: absolute;
+        left: 0px;
+        top: -100px;
+        img {
+            width: 220px;
+        }
+    }
+}
+
+footer {
+    position: relative;
+    background-color: $secondary;
+    text-align: center;
+    .footer-logo {
+        padding-top: 80px;
+        margin-bottom: 80px;
+        img {
+            width: 280px;
+        }
+    }
+    .newsletter {
+        margin-top: 60px;
+        position: relative;
+        display: inline;
+        margin: auto;
+    }
+    .go {
+        position: absolute;
+        right: 25px;
+        top: 0px;
+        color: $gray;
+        font-weight: 800;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+        &:hover {
+            color: $primary;
+        }
+    }
+    .subfooter {
+        position: relative;
+        text-align: center;
+        margin-top: 150px;
+        padding-bottom: 40px;
+        color: $gray;
+    }
+    .footer-bg-1 {
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+        img {
+            width: 220px;
+        }
+    }
+    .footer-bg-2 {
+        position: absolute;
+        top: -100px;
+        left: 0px;
+        img {
+            width: 220px;
+        }
+    }
+}
+
+
+/*media queries*/
+
+@media (max-width: 1366px) {
+    .team-container {
+        .name {
+            font-size: 20px;
+            left: 60px;
+        }
+        .designation {
+            position: absolute;
+            top: calc(40% + 40px);
+            left: 60px;
+        }
+    }
+    .sch-container {
+        .kay-container {
+            margin: 30px;
+            padding: 100px;
+            padding-top: 140px;
+            background: #f9f9f9;
+            padding-bottom: 140px;
+        }
+        .sch-head {
+            font-size: 47px;
+            padding-bottom: 40px;
+        }
+        .sch-detail {
+            padding: 60px;
+            padding-bottom: 0px;
+        }
+        .sch-detail-cont {
+            margin-top: 70px;
+        }
+    }
+}

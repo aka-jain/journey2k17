@@ -1,0 +1,12 @@
+{
+  "chunks": {
+    "vendor": [
+      "animate",
+      "materialize"
+    ]
+  },
+  "paths": { 
+       "animate": "bower_components/animate.css/animate.css",
+       "materialize": "bower_components/materialize/dist/css/materialize.css"
+      }
+}

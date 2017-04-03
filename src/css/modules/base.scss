@@ -1,0 +1,213 @@
+/*ng cloak default styling*/
+
+[ng\:cloak],
+[ng-cloak],
+[data-ng-cloak],
+[x-ng-cloak],
+.ng-cloak,
+.x-ng-cloak {
+    display: none !important;
+}
+
+
+/*default styles*/
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.clear-fix {
+    clear: both;
+}
+
+.kay-container {
+    padding: 40px 250px;
+}
+
+.wrap-container {
+    position: relative;
+}
+
+.max-vh {
+    height: 100vh;
+}
+
+
+/*text styles*/
+
+.text-primary {
+    color: $primary;
+}
+
+.text-secondary {
+    color: $secondary;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.text-gray {
+    color: $gray;
+}
+
+.text-blue {
+    color: $blue;
+}
+
+
+/*font weights*/
+
+.w-200 {
+    font-weight: 200;
+}
+
+.w-300 {
+    font-weight: 300;
+}
+
+.w-400 {
+    font-weight: 400;
+}
+
+.w-500 {
+    font-weight: 500;
+}
+
+.w-600 {
+    font-weight: 600;
+}
+
+.w-800 {
+    font-weight: 800;
+}
+
+
+/*font size*/
+
+.fs-12 {
+    font-size: 12px;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.fs-16 {
+    font-size: 16px;
+}
+
+.fs-18 {
+    font-size: 18px;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+
+/*buttons styles*/
+
+.kay-btn {
+    display: inline-block;
+    border-radius: 40px;
+    padding: 16px 40px;
+    cursor: pointer;
+}
+
+.kay-btn-primary,
+.kay-btn-secondary {
+    color: #fff;
+    background-color: $primary;
+    border: 1px solid $primary;
+    transition: all 0.2s ease-in-out;
+    &:hover {
+        background-color: rgba(0, 0, 0, 0);
+    }
+}
+
+.kay-btn-secondary {
+    &:hover {
+        color: $primary;
+    }
+}
+
+
+/*line styles*/
+
+.primary-hr {
+    display: inline-block;
+    height: 3px;
+    width: 140px;
+    background-color: $primary;
+}
+
+.secondary-vr {
+    display: inline-block;
+    height: 50px;
+    width: 3px;
+    background-color: $secondary;
+}
+
+.primary-vr-lg {
+    display: inline-block;
+    height: 180px;
+    width: 3px;
+    background-color: $primary;
+}
+
+.primary-vr {
+    display: inline-block;
+    height: 140px;
+    width: 3px;
+    background-color: $primary;
+}
+
+
+/*input styles*/
+
+input.kay-input {
+    width: 500px;
+    border-radius: 40px;
+    border: 2px solid #fff;
+    padding: 10px 20px;
+    color: $primary;
+    font-weight: 800;
+    &:focus {
+        background: #fff;
+        border-bottom: 2px solid #fff !important;
+        box-shadow: 0px 0px 0px #000 !important;
+    }
+}
+
+
+/*transition animation style*/
+
+.rotate-90 {
+    transform: rotate(90deg);
+}
+
+
+/*media queries*/
+
+@media (max-width: 1366px) {
+    .kay-container {
+        padding: 40px 180px;
+    }
+}
