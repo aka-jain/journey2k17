@@ -18,11 +18,17 @@
 
         vm.showMenu = function() {
             $('.nav-menu-container').fadeIn();
+            $('body').css({
+                'overflow': 'hidden'
+            })
         }
 
         vm.hideMenu = function() {
 
-                $('.nav-menu-container').fadeOut()
+                $('.nav-menu-container').fadeOut();
+                $('body').css({
+                    'overflow': 'auto'
+                })
             }
             // scroll function for header class
         $(window).scroll(function() {

@@ -10,6 +10,23 @@
 }
 
 
+
+/*scrollbar customization*/
+
+::-webkit-scrollbar {
+    width: 4px;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track-piece {
+    background-color: $secondary;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+    background-color: $primary;
+    border-radius: 10px;
+}
 /*default styles*/
 
 .right {

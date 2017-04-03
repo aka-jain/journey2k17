@@ -2,6 +2,7 @@
 'use strict';
 
 var gulp = require('gulp'),
+    runSequence = require('run-sequence'),
     merge = require('merge-stream'),
     sass = require('gulp-ruby-sass'),
     autoprefixer = require('gulp-autoprefixer'),
@@ -218,6 +219,7 @@ gulp.task('connect', function() {
 })
 
 // development task
-gulp.task('runserver', ['clean'], function() {
-    gulp.start('css', 'js', 'html', 'images', 'vendorjs', 'vendorcss', 'fonts', 'watch', 'connect');
+gulp.task('runserver', function(callback) {
+    runSequence('clean', ['css', 'js', 'html', 'images', 'vendorjs', 'vendorcss', 'fonts'], 'connect', 'watch', callback);
+
 });
