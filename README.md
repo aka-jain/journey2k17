@@ -1,5 +1,4 @@
-#Angular-Setter
-Angular 1.5 setup with bower, SASS, gulp, npm
+#Journey2k17
 
 ##Frameworks/Libraries used
 1. Angular JS
